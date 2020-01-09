@@ -141,10 +141,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88cd720ab9bfabe44bb1126c054a4e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6010179341807820008, guid: 2b5a9570dfc568c40aae0354e40ab073, type: 3}
+  prefab: {fileID: 56806957572126135, guid: c17adb7cf696c0b448b058199ee69b60, type: 3}
   pos: {fileID: 80063719}
   adminReference: {fileID: 100618955}
   timeLapseToSpawn: 3
+  RangoX1: -1.63
+  RangoX2: 3.1
 --- !u!4 &80063719
 Transform:
   m_ObjectHideFlags: 0
@@ -392,7 +394,7 @@ GameObject:
   - component: {fileID: 465795707}
   m_Layer: 0
   m_Name: Hane
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -471,7 +473,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465795706}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.45000005, y: -0.78, z: -5.4169035}
+  m_LocalPosition: {x: 0.094, y: 0.177, z: -5.4169035}
   m_LocalScale: {x: 0.40000004, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}

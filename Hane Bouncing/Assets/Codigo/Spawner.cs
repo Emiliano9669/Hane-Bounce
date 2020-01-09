@@ -10,6 +10,8 @@ public class Spawner : MonoBehaviour
     public Transform pos;
     public Text adminReference;
     public float timeLapseToSpawn;
+    public float RangoX1;
+    public float RangoX2;
 
     private float timeToSpawn = 0;
 
@@ -36,7 +38,7 @@ public class Spawner : MonoBehaviour
 
     private Vector3 Vector3Random()
     {
-        float x = Random.Range(-2.2f, 2.2f);       
+        float x = Random.Range(RangoX1, RangoX2);       
         return new Vector3(x, 7, 0);
     }
 
