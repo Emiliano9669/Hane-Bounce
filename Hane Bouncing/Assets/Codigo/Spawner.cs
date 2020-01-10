@@ -7,8 +7,6 @@ public class Spawner : MonoBehaviour
 {
 
     public GameObject prefab;
-    public Transform pos;
-    public Text adminReference;
     public float timeLapseToSpawn;
     public float RangoX1;
     public float RangoX2;
@@ -26,10 +24,8 @@ public class Spawner : MonoBehaviour
     void Update()
     {
         timeToSpawn += Time.deltaTime;
-        adminReference.text = timeToSpawn.ToString("0");
         if (timeToSpawn > timeLapseToSpawn)
         {
-            print("spawneamos!");
             Instantiate(prefab, Vector3Random(), prefab.gameObject.transform.rotation);
             timeToSpawn = 0;
         }
